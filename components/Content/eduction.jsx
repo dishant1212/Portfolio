@@ -18,7 +18,7 @@ function Eduction() {
     <TimelineItem 
       title="Bachelor of Science in Computer Science"
       period="2021 — 2024"
-      description="Currently pursuing a Bachelor's of Science in Computer Science at Mahatma Jyotiba Phule Rohilkhand University, Bareilly , Dhampur Degree College ."
+      description="Completed my Bachelor's of Science in Computer Science at Mahatma Jyotiba Phule Rohilkhand University, Bareilly , Dhampur Degree College ."
     />
     <TimelineItem 
       title="HSC"
