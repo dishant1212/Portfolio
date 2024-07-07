@@ -8,7 +8,7 @@ function Eduction() {
     <div className="text-white h-full w-full flex justify-center items-center">
       <div className="w-[95%] h-full">
         <div>
-          <h1 className="text-3xl font-bold ">Education</h1>
+          <h1 className="text-3xl font-bold my-2">Education</h1>
           <h2 className="inline-block w-12 border-2 border-[#ce9824] rounded-md"></h2>
         </div>
 
