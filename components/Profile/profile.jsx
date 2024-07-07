@@ -3,7 +3,10 @@ import { IoPhonePortraitOutline } from "react-icons/io5";
 import { CiLinkedin } from "react-icons/ci";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
+
+import { FaFileDownload } from "react-icons/fa";
 import img from "../../public/profilepic.jpg"
+// import resume from "../../public/dishant-resume.pdf"
 
 
 function Profile() {
@@ -82,8 +85,10 @@ function Profile() {
           </div>
           <div>
              
-             <div className=" h-10 flex justify-end items-center ">
+             <div className=" h-10 flex justify-end items-center space-x-4">
+             
               <a href="https://github.com/dishant1212" target="_main"><FaGithub  className="text-[#ead487] text-xl" /></a>
+              <a className="text-[#ead487] text-xl" href="/dishant-resume.pdf" download="dishant-resume" ><FaFileDownload /></a>
              </div>
           </div>
          

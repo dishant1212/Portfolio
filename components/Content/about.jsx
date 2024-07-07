@@ -1,3 +1,4 @@
+import { FaFileDownload } from "react-icons/fa";
 import { SiLibreofficemath } from "react-icons/si";
 
 function About() {
@@ -24,6 +25,14 @@ function About() {
           ahead in the ever-evolving field of technology. Feel free to browse
           through my projects, check out my resume, or get in touch!
         </p>
+
+
+        <div className="flex">
+          <div className="flex space-x-2 items-center justify-center px-2 py-2 border-[1px] border-[#7c7777] ">
+          <a className="text-[#ead487] text-md" href="/dishant-resume.pdf" download="dishant-resume" >Download Resume </a>
+          <a className="text-[#ead487] text-lg  " href="/dishant-resume.pdf" download="dishant-resume" ><FaFileDownload /></a>
+          </div>
+        </div>
 
         <div className="my-2">
             <h1 className="text-2xl font-bold">Skills</h1>
