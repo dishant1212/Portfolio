@@ -91,7 +91,7 @@ function Projects() {
                
                 <div className="h-[50%]">
                      <h1 className="mt-2 font-semibold text-lg">Shop-Swiftly E-commerce WebSite</h1>
-                     <h2 className="text-gray-500">Frontend</h2>
+                     <h2 className="text-gray-500">Frontend, Backend</h2>
                      <div className="text-orange-700">
                         <span>Stack:</span>
                         <span>React.js, Redux , Node.js , Express.js , MongoDB</span>

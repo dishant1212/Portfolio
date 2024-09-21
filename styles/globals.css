@@ -4,3 +4,28 @@
 
 
 @import './scrollbar.css';
+
+.mobile-number {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .mobile-number::after {
+    content: "••••••••"; /* Dots after the first two digits */
+  }
+
+  /* Tooltip styles */
+  .mobile-number:hover::before {
+    content: attr(data-mobile); /* Get mobile number from data attribute */
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    top: -30px; /* Adjust this according to your layout */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 12px;
+    z-index: 10;
+  }

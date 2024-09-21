@@ -11,7 +11,7 @@ import img from "../../public/profilepic.jpg"
 
 function Profile() {
   return (
-    <div className="h-auto  w-[90%] md:w-[25%] border-[1px] border-[#7c7777] rounded-lg flex justify-center items-center sticky bottom-0  right-0  z-20">
+    <div className="h-full  w-[90%] md:w-[25%] border-[1px] border-[#7c7777] rounded-lg flex justify-center items-center sticky bottom-0  right-0  z-20">
       <div className="h-full w-[80%] flex flex-col space-y-4  ">
         <div className=" h-[50%] w-full flex items-center justify-center ">
           <div className="w-full  h-full  flex flex-col items-center justify-center space-y-4">
@@ -25,7 +25,7 @@ function Profile() {
               <h1 className=" text-2xl font-semibold text-white">
                 Dishant Chauhan
               </h1>
-              <p className="text-white  px-2 py-2">React Js Developer</p>
+              <p className="text-white  px-2 py-2">Frontend Developer</p>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ function Profile() {
 
             <div className="flex flex-col text-white">
               <h1 className="text-sm font-medium">PHONE</h1>
-              <p className="text-sm">9528948358 </p>
+              <p className="text-sm mobile-number" data-mobile="9528948358"></p>
             </div>
             
           </div>
@@ -65,7 +65,7 @@ function Profile() {
 
             <div className="flex flex-col text-white">
               <h1 className="text-sm font-medium">LINKDIN</h1>
-              <p className="text-sm"><a href="https://www.linkedin.com/in/dishant1212/" target="_main">100+ connections</a></p>
+              <p className="text-sm"><a href="https://www.linkedin.com/in/dishant1212/" target="_main">300+ connections</a></p>
             </div>
             
           </div>
